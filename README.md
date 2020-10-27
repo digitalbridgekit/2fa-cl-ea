@@ -48,17 +48,17 @@ We have a version of the adapter currently running on Cloud at the following loc
 
 To test it follow this doc  https://github.com/digitalbridgekit/2fa-for-smartcontracts-matic#how-to-test-this-demo-online
 
-To view a Video Demo  https://www.youtube.com/watch?v=GjcK_L5J0DQ
+To view a Video Demo  https://www.youtube.com/watch?v=DbdtFDvAthA
 
 ## Install Locally
 
+###  Requirements
+
+ * yarn
+
 ### Install dependencies:
 
-npm install
-
-### Test 
-
-npm test
+yarn
 
 ### Run
 node -e 'require("./index.js").server()'
