@@ -1,0 +1,41 @@
+{
+  "name": "@chainlink/external-adapters-js",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "2fa"
+  ],
+  "scripts": {
+    "lint": "yarn eslint .",
+    "start-example-server": "node ./helpers/server.js",
+    "test-example": "yarn workspace example test",
+    "test-external-adapter": "yarn workspace @chainlink/external-adapter test"
+  },
+  "dependencies": {
+    "@zeit/ncc": "^0.22.1",
+    "body-parser": "^1.19.0",
+    "boxhock_google-finance-data": "^0.1.0",
+    "decimal.js": "^10.2.0",
+    "ethers": "^4.0.47",
+    "express": "^4.17.0",
+    "market-closure": "^0.1.2",
+    "synthetix": "^2.26.3",
+    "web3": "^1.2.7",
+    "yahoo-finance": "^0.3.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^7.1.2",
+    "prettier": "^2.0.5"
+  },
+  "resolutions": {
+    "**/elliptic": "^6.5.3"
+  }
+}
