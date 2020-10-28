@@ -1,5 +1,5 @@
 name: 2FA Chainlink EA
-description: This adapter is an extra layer of security where in addition to a password the user must confirm a code from/click a button on a trusted device only they have access to.
+description: This adapter is an extra layer of security where in addition to a password the user must confirm a code from or click a button on a trusted device only they have access to.
 node_identifier: 2fa-cl-ea
 platforms:
   - Docker
