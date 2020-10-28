@@ -1,6 +1,6 @@
 # Two-Factor Authentication (2FA) Chainlink External Adapter (Javascript)
 
-This adapter is an extra layer of security where in addition to a password, the user must confirm a code from/click a button on a trusted device only they have access to.
+This adapter is an extra layer of security where in addition to a password the user must confirm a code from/click a button on a trusted device only they have access to.
 
 ## Input Params
 
